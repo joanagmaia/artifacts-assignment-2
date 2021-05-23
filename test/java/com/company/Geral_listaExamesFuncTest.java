@@ -9,6 +9,7 @@ import java.io.PrintStream;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import sun.awt.windows.WPrinterJob;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -43,11 +44,14 @@ class Geral_listaExamesFuncTest {
         String input1 = "17";
         String input2 = "0";
 
+        provideInput(input1);
+
         Geral geral = new Geral();
         geral.listaExamesFunc();
 
         assert(testOut.toString().contains(expected1));
         assert(testOut.toString().contains(expected2));
+        assert(false);
 
     }
     @Test
@@ -57,11 +61,14 @@ class Geral_listaExamesFuncTest {
         String input1 = "17";
         String input2 = "0";
 
-        provideInput(input1);
+        String input = input1 + System.lineSeparator() + input2;
+        provideInput(input);
 
         Geral geral = new Geral();
         geral.listaExamesFunc();
 
+        systemOut.println(testOut);
+        systemOut.println("teste:");
         assert(testOut.toString().contains(expected1));
         assert(testOut.toString().contains(expected2));
 
