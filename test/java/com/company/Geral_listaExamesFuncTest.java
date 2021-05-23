@@ -4,11 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class GeralTest {
+class Geral_listaExamesFuncTest {
 
     @Test
-    void alteraExame() {
+    void listaExamesFunc() {
     }
-
-
 }
