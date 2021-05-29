@@ -1,48 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
+    <list default="true" id="0b46f86a-a135-4cb2-a54e-8418b9b8c7cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_junit_jupiter_2_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mockito_mockito_core_2_2_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test Results - All_in_projetofinal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/projetofinal/com/company/GeralTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetofinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetofinal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/com/company/GeralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/com/company/Geral_pedeData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/com/company/Geral_listaExamesFuncTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/com/company/Geral_listaExamesFuncTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1svtqDqMJwmlrAkMS1ULanag0jS" />
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1t2W1zOosCufhzcbZZjtBVdWZAd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.4.2" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.20094007" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="projetofinal" />
+  <component name="RunManager" selected="JUnit.Geral_pedeData">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="recording" autostart="true">
+        <include_pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in projetofinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="recording" autostart="true">
+        <include_pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geral_pedeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true">
+        <include_pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geral_pedeData.testPedeDataCorrectValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true">
+        <include_pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
+      <option name="METHOD_NAME" value="testPedeDataCorrectValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geral_pedeData.testPedeDataIncorrectValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="true" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
+      <option name="METHOD_NAME" value="testPedeDataIncorrectValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="recording" autostart="true">
+        <include_pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Geral_pedeData" />
+        <item itemvalue="JUnit.All in projetofinal" />
+        <item itemvalue="JUnit.Geral_pedeData.testPedeDataIncorrectValues" />
+        <item itemvalue="JUnit.Geral_pedeData.testPedeDataCorrectValues" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="" />
-      <created>1621765086508</created>
+      <changelist id="0b46f86a-a135-4cb2-a54e-8418b9b8c7cd" name="Default Changelist" comment="" />
+      <created>1621967459841</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621765086508</updated>
+      <updated>1621967459841</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="geral.pedeData()" language="JAVA" />
+        <watch expression="geral.pedeData() == expectedData" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/artifacts_assignment_2$All_in_projetofinal.ic" NAME="All in projetofinal Coverage Results" MODIFIED="1622071460580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/artifacts_assignment_2$Geral_pedeData.ic" NAME="Geral_pedeData Coverage Results" MODIFIED="1622144458411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
   </component>
 </project>

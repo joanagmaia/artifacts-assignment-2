@@ -9,9 +9,6 @@ import java.io.PrintStream;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import sun.awt.windows.WPrinterJob;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Geral_listaExamesFuncTest {
 
