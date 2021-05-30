@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly.">
+    <list default="true" id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="update(dados.obj) - modified to fit my test suit">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_7_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/com/company/testCases/Geral_listaExamesFunc_controlFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/com/company/testCases/Geral_listaExamesFunc_controlFlowTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/projetofinal/com/company/listaExamesFunc_TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/projetofinal/com/company/listaExamesFunc_TestSuit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB">
+  <component name="RunManager" selected="JUnit.listaExamesFunc_TestSuit">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="projetofinal" />
@@ -54,7 +54,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="listaExamesFunc_TestSuit" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -63,13 +63,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.GeralTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_listaExamesFuncTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="listaExamesFunc_TestSuit.TCLEF19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -78,29 +78,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Geral_listaExamesFuncTest.listaExamesFuncA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="projetofinal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
-      <option name="METHOD_NAME" value="listaExamesFuncA" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
+      <option name="METHOD_NAME" value="TCLEF19" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_listaExamesFuncTest.listaExamesFuncB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="listaExamesFunc_TestSuit.TCLEF20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -109,24 +94,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
-      <option name="METHOD_NAME" value="listaExamesFuncB" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
+      <option name="METHOD_NAME" value="TCLEF20" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="listaExamesFunc_TestSuit.TCLEF22" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.testCases.*" />
+          <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.company.testCases" />
-      <option name="MAIN_CLASS_NAME" value="com.company.testCases.Geral_listaExamesFunc_controlFlowTest" />
-      <option name="METHOD_NAME" value="listaExamesFuncB" />
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
+      <option name="METHOD_NAME" value="TCLEF22" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="listaExamesFunc_TestSuit.TCLEF23" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
+      <option name="METHOD_NAME" value="TCLEF23" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="listaExamesFunc_TestSuit.TCLEF24" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.listaExamesFunc_TestSuit" />
+      <option name="METHOD_NAME" value="TCLEF24" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB" />
-        <item itemvalue="JUnit.Geral_listaExamesFuncTest" />
-        <item itemvalue="JUnit.GeralTest" />
-        <item itemvalue="JUnit.Geral_listaExamesFuncTest.listaExamesFuncB" />
-        <item itemvalue="JUnit.Geral_listaExamesFuncTest.listaExamesFuncA" />
+        <item itemvalue="JUnit.listaExamesFunc_TestSuit.TCLEF24" />
+        <item itemvalue="JUnit.listaExamesFunc_TestSuit.TCLEF23" />
+        <item itemvalue="JUnit.listaExamesFunc_TestSuit.TCLEF22" />
+        <item itemvalue="JUnit.listaExamesFunc_TestSuit.TCLEF20" />
+        <item itemvalue="JUnit.listaExamesFunc_TestSuit.TCLEF19" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621770697872</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update(Geral_listaExamesFunc_TestSuit): Created 24 test cases">
+      <created>1622386490103</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622386490103</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update(dados.obj) - modified to fit my test suit">
+      <created>1622386518390</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622386518390</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,29 +222,27 @@
     <MESSAGE value="Chore: Created new test file for listaExamesFunc()" />
     <MESSAGE value="mod(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
     <MESSAGE value="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
-    <option name="LAST_COMMIT_MESSAGE" value="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
+    <MESSAGE value="update(Geral_listaExamesFunc_TestSuit): Created 24 test cases" />
+    <MESSAGE value="update(dados.obj) - modified to fit my test suit" />
+    <option name="LAST_COMMIT_MESSAGE" value="update(dados.obj) - modified to fit my test suit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Geral.java</url>
-          <line>528</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="this.getFuncs().size()" language="JAVA" />
-        <watch expression="num" language="JAVA" />
         <watch expression="testOut.toString()" language="JAVA" />
-        <watch expression="write" language="JAVA" />
+        <watch expression="testOut.toString().endsWith(expected2 + &quot;\r\n&quot;)" language="JAVA" />
+        <watch expression="num" language="JAVA" />
+        <watch expression="expectedFile1" language="JAVA" />
+        <watch expression="file" language="JAVA" />
+        <watch expression="expected3 + expected4 + expected5 + expected6 + expected7 + expected8 + expected9 +expected10 + expected11 + expected12 + &quot;\r\n&quot;" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/artifacts_assignment_2$Geral_listaExamesFuncTest.ic" NAME="Geral_listaExamesFuncTest Coverage Results" MODIFIED="1622144639622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/artifacts_assignment_2$listaExamesFunc_TestSuit.ic" NAME="listaExamesFunc_TestSuit Coverage Results" MODIFIED="1622388115353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/artifacts_assignment_2$Main.ic" NAME="Main Coverage Results" MODIFIED="1622144608354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

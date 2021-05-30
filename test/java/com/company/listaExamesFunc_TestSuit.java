@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.Geral;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -59,6 +60,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF1: listaExamesFunc Control Flow Path 1")
     void TCLEF1() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2A = "Erro ao abrir o ficheiro";
@@ -79,6 +81,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF2: listaExamesFunc Control Flow Path 2")
     void TCLEF2() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -100,6 +103,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF3: listaExamesFunc Control Flow Path 3")
     void TCLEF3() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -124,6 +128,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF4: listaExamesFunc Control Flow Path 4")
     void TCLEF4() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?(0-n/1-n):";
@@ -143,6 +148,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF5: listaExamesFunc Control Flow Path 5")
     void TCLEF5() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -164,6 +170,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF6: listaExamesFunc Control Flow Path 6")
     void TCLEF6() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -188,6 +195,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF7: listaExamesFunc Control Flow Path 7")
     void TCLEF7() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?(0-n/1-n):";
@@ -210,6 +218,7 @@ class listaExamesFunc_TestSuit {
     //Still trying to figure out how to use mockito to solve this issue
 
     @Test
+    @DisplayName("TCLEF9: listaExamesFunc Control Flow Path Loop 2")
     void TCLEF9() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -250,6 +259,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF10: listaExamesFunc Control Flow Path Loop 2")
     void TCLEF10() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -290,6 +300,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF11: listaExamesFunc input1 Boundary Equivalence 1")
     void TCLEF11() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Numero de Funcionario invalido";
@@ -309,6 +320,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF12: listaExamesFunc input1 Boundary Equivalence 2")
     void TCLEF12() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?(0-n/1-n):";
@@ -328,6 +340,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF13: listaExamesFunc input1 Boundary Equivalence 3")
     void TCLEF13() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?(0-n/1-n):";
@@ -347,6 +360,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF14: listaExamesFunc input1 Boundary Equivalence 4")
     void TCLEF14() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Numero de Funcionario invalido";
@@ -366,6 +380,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF15: listaExamesFunc input1 Invalid Equivalence 1")
     void TCLEF15() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Numero de Funcionario invalido";
@@ -385,6 +400,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF16: listaExamesFunc input1 Invalid Equivalence 2")
     void TCLEF16() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Numero de Funcionario invalido";
@@ -404,6 +420,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF17: listaExamesFunc input1 Invalid Equivalence 3")
     void TCLEF17() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Numero de Funcionario invalido";
@@ -423,6 +440,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF18: listaExamesFunc input2 Boundary Equivalence 1")
     void TCLEF18() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Opcao invalida";
@@ -442,6 +460,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF19: listaExamesFunc input2 Boundary Equivalence 2")
     void TCLEF19() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -463,6 +482,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF20: listaExamesFunc input2 Boundary Equivalence 3")
     void TCLEF20() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Deseja que o resultado seja escrito num ficheiro?";
@@ -487,6 +507,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF21: listaExamesFunc input2 Boundary Equivalence 4")
     void TCLEF21() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Opcao invalida";
@@ -506,6 +527,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF22: listaExamesFunc input2 Invalid Equivalence 1")
     void TCLEF22() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Opcao invalida";
@@ -525,6 +547,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF23: listaExamesFunc input2 Invalid Equivalence 2")
     void TCLEF23() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Opcao invalida";
@@ -544,6 +567,7 @@ class listaExamesFunc_TestSuit {
     }
 
     @Test
+    @DisplayName("TCLEF24: listaExamesFunc input2 Invalid Equivalence 3")
     void TCLEF24() {
         String expected1 = "Num do Funcionario :"; //this is start of expected1 string
         String expected2 = "Opcao invalida";
