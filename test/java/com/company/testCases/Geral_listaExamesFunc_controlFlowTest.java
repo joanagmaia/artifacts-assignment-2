@@ -1,5 +1,6 @@
-package com.company;
+package com.company.testCases;
 
+import com.company.Geral;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
@@ -10,7 +11,7 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
-class Geral_listaExamesFuncTest {
+class Geral_listaExamesFunc_controlFlowTest {
 
     private final InputStream systemIn = System.in;
     private final PrintStream systemOut = System.out;

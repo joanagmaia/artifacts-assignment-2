@@ -1,26 +1,21 @@
-package com.company;
+package com.company.testCases;
 
+import com.company.Data;
+import com.company.Geral;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
-import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
-
-@ExtendWith(MockitoExtension.class)
-class Geral_pedeData {
-
-    @Mock
-    Exame exame;
+@DisplayName("pedeData Control Flow Test")
+public class Geral_pedeData_controlFlowTest {
 
     private final InputStream systemIn = System.in;
     private final PrintStream systemOut = System.out;
@@ -45,7 +40,8 @@ class Geral_pedeData {
     }
 
     @Test
-    void testPedeDataCorrectValues() {
+    @DisplayName("TCPD1: Test Case for PPD1")
+    void testIndependentPath1() {
         Data expectedData = new Data(18.0f, 1, 6, 2021, 2, "18:00");
         Geral geral = new Geral();
 
@@ -57,7 +53,8 @@ class Geral_pedeData {
     }
 
     @Test
-    void testPedeDataIncorrectValues() {
+    @DisplayName("TCPD2: Test Case for PPD2")
+    void testIndependentPath2() {
         Data expectedData = new Data(18.0f, 1, 6, 2021, 2, "18:00");
         Geral geral = new Geral();
 
