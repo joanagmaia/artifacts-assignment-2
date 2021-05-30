@@ -1,85 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b46f86a-a135-4cb2-a54e-8418b9b8c7cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_platform_junit_platform_runner_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_platform_junit_platform_suite_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/java/com/company/Geral_pedeData_controlFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/projetofinal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/projetofinal/com/company/Geral_pedeData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/projetofinal/com/company/Geral_pedeData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetofinal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projetofinal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/com/company/Geral_pedeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/com/company/Gera_pedeDataSuite.java" afterDir="false" />
+    <list default="true" id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_5_7_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/com/company/testCases/Geral_listaExamesFunc_controlFlowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/com/company/testCases/Geral_listaExamesFunc_controlFlowTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportTestResults" exportFormat="Xml" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="2" />
-  </component>
-  <component name="ProjectId" id="1t2W1zOosCufhzcbZZjtBVdWZAd" />
+  <component name="ProjectId" id="1svtqDqMJwmlrAkMS1ULanag0jS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.4.2" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.20094007" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.pedeDataSuite">
-    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
-      <extension name="recording" autostart="true">
-        <include_pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
-      </extension>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in projetofinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="projetofinal" />
-      <extension name="recording" autostart="true">
-        <include_pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_pedeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -87,21 +62,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="recording" autostart="true">
-        <include_pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
+      <option name="MAIN_CLASS_NAME" value="com.company.GeralTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_pedeData.testPedeDataCorrectValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Geral_listaExamesFuncTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -109,22 +77,30 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="recording" autostart="true">
-        <include_pattern>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Geral_listaExamesFuncTest.listaExamesFuncA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="projetofinal" />
+      <extension name="coverage">
+        <pattern>
           <option name="PATTERN" value="com.company.*" />
           <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
+        </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
-      <option name="METHOD_NAME" value="testPedeDataCorrectValues" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
+      <option name="METHOD_NAME" value="listaExamesFuncA" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Geral_pedeData.testPedeDataIncorrectValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Geral_listaExamesFuncTest.listaExamesFuncB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
       <extension name="coverage">
         <pattern>
@@ -132,63 +108,71 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="recording" autostart="true" />
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Geral_pedeData" />
-      <option name="METHOD_NAME" value="testPedeDataIncorrectValues" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Geral_listaExamesFuncTest" />
+      <option name="METHOD_NAME" value="listaExamesFuncB" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="recording" autostart="true">
-        <include_pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
-      </extension>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pedeDataSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="projetofinal" />
-      <extension name="recording" autostart="true">
-        <include_pattern>
-          <option name="PATTERN" value="com.company.*" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.testCases.*" />
           <option name="ENABLED" value="true" />
-          <option name="INCLUDE" value="true" />
-        </include_pattern>
+        </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="pedeDataSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.company.testCases" />
+      <option name="MAIN_CLASS_NAME" value="com.company.testCases.Geral_listaExamesFunc_controlFlowTest" />
+      <option name="METHOD_NAME" value="listaExamesFuncB" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.pedeDataSuite" />
-        <item itemvalue="JUnit.Geral_pedeData" />
-        <item itemvalue="JUnit.All in projetofinal" />
-        <item itemvalue="JUnit.Geral_pedeData.testPedeDataIncorrectValues" />
-        <item itemvalue="JUnit.Geral_pedeData.testPedeDataCorrectValues" />
+        <item itemvalue="JUnit.Geral_listaExamesFunc_controlFlowTest.listaExamesFuncB" />
+        <item itemvalue="JUnit.Geral_listaExamesFuncTest" />
+        <item itemvalue="JUnit.GeralTest" />
+        <item itemvalue="JUnit.Geral_listaExamesFuncTest.listaExamesFuncB" />
+        <item itemvalue="JUnit.Geral_listaExamesFuncTest.listaExamesFuncA" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b46f86a-a135-4cb2-a54e-8418b9b8c7cd" name="Default Changelist" comment="" />
-      <created>1621967459841</created>
+      <changelist id="48237555-5c85-4beb-995a-2e8fd06da0bb" name="Default Changelist" comment="" />
+      <created>1621765086508</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621967459841</updated>
+      <updated>1621765086508</updated>
     </task>
+    <task id="LOCAL-00001" summary="Chore: Created new test file for listaExamesFunc()">
+      <created>1621766719405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621766719405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mod(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly.">
+      <created>1621769691272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621769691272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly.">
+      <created>1621770697872</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621770697872</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,18 +187,35 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Chore: Created new test file for listaExamesFunc()" />
+    <MESSAGE value="mod(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
+    <MESSAGE value="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
+    <option name="LAST_COMMIT_MESSAGE" value="update(Geral_listaExamesFuncTest): created 2 test cases to test if the read and write from jUnit work corretly." />
+  </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Geral.java</url>
+          <line>528</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
-        <watch expression="geral.pedeData()" language="JAVA" />
-        <watch expression="geral.pedeData() == expectedData" language="JAVA" />
+        <watch expression="this.getFuncs().size()" language="JAVA" />
+        <watch expression="num" language="JAVA" />
+        <watch expression="testOut.toString()" language="JAVA" />
+        <watch expression="write" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/artifacts_assignment_2$All_in_projetofinal.ic" NAME="All in projetofinal Coverage Results" MODIFIED="1622071460580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/artifacts_assignment_2$Geral_pedeData.ic" NAME="Geral_pedeData Coverage Results" MODIFIED="1622144458411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/artifacts_assignment_2$Geral_listaExamesFuncTest.ic" NAME="Geral_listaExamesFuncTest Coverage Results" MODIFIED="1622144639622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/artifacts_assignment_2$Main.ic" NAME="Main Coverage Results" MODIFIED="1622144608354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
